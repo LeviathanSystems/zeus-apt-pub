@@ -1,13 +1,13 @@
 Package: zeus
-Version: 0.1.16
+Version: 0.1.17
 Architecture: amd64
 Maintainer: Zeus NVR <https://github.com/LeviathanSystems/Zeus>
 Depends: ffmpeg, adduser, systemd
-Filename: pool/main/zeus_0.1.16_amd64.deb
-Size: 26627798
-MD5sum: 73dac08fd0cb71fcd036f822f47b44a9
-SHA1: 545300fad91df3255a8e2d567ad2b007b41c3aa0
-SHA256: 74feb7b0984e475af1fc1ba0dc84dd4bafa452601b590331a9f909bbbbbe884b
+Filename: pool/main/zeus_0.1.17_amd64.deb
+Size: 26728366
+MD5sum: da89dd2e0677297b2ef4852579428227
+SHA1: 30a75bccd183b0a87f62f5946eb600ccc4befa01
+SHA256: aa40216a01755745a4b3f516c10eab62088fe835f3d157215418901460aaea26
 Section: net
 Priority: optional
 Homepage: https://github.com/LeviathanSystems/Zeus
