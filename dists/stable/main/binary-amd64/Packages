@@ -1,0 +1,18 @@
+Package: zeus
+Version: 0.1.14
+Architecture: amd64
+Maintainer: Zeus NVR <https://github.com/LeviathanSystems/Zeus>
+Depends: ffmpeg, adduser, systemd
+Filename: pool/main/zeus_0.1.14_amd64.deb
+Size: 26604478
+MD5sum: 9680efdc6f90c02f0f68a3b5aeb5e614
+SHA1: 506b9a70f698a0cfbdd4775f1330799510a13636
+SHA256: 764e40be95d2bfea3ce2b2589cd228f36eca939b2f59bc707f153707878e981e
+Section: net
+Priority: optional
+Homepage: https://github.com/LeviathanSystems/Zeus
+Description: Zeus network video recorder
+ Zeus supervises go2rtc, per-camera recorders, motion and object detection,
+ and the admin web UI as a single systemd service. See
+ /usr/share/doc/zeus/DEPLOY.md for configuration (cameras, retention, TLS).
+
