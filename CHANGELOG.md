@@ -1,3 +1,8 @@
+# v0.1.19
+
+_Released 2026-09-26, changes since v0.1.18._
+
+- fix(deploy): let recordings live anywhere instead of only /rec
 # v0.1.18
 
 _Released 2026-09-26, changes since v0.1.17._
