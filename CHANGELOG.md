@@ -1,3 +1,8 @@
+# v0.1.20
+
+_Released 2026-09-26, changes since v0.1.19._
+
+- feat: release notes in apt and the UI, plus an update check
 # v0.1.19
 
 _Released 2026-09-26, changes since v0.1.18._
