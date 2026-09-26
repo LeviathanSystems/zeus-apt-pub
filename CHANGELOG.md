@@ -1,3 +1,8 @@
+# v0.1.18
+
+_Released 2026-09-26, changes since v0.1.17._
+
+- fix: feed reconnect gaps across go2rtc, recorders, live relay and tiles
 # v0.1.17
 
 _Released 2026-09-25, changes since v0.1.16._
