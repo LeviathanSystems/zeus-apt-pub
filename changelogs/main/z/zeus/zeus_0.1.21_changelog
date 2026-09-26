@@ -1,0 +1,173 @@
+zeus (0.1.21) stable; urgency=medium
+
+  * feat(native): edit the Safire camera's own settings from the UI
+  * fix(infer): safeguards so a Tier 2 failure can't silently jam the queue
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Sat, 26 Sep 2026 14:46:10 +0200
+
+zeus (0.1.20) stable; urgency=medium
+
+  * feat: release notes in apt and the UI, plus an update check
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Sat, 26 Sep 2026 13:34:22 +0200
+
+zeus (0.1.19) stable; urgency=medium
+
+  * fix(deploy): let recordings live anywhere instead of only /rec
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Sat, 26 Sep 2026 12:48:06 +0200
+
+zeus (0.1.18) stable; urgency=medium
+
+  * fix: feed reconnect gaps across go2rtc, recorders, live relay and tiles
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Sat, 26 Sep 2026 09:39:12 +0200
+
+zeus (0.1.17) stable; urgency=medium
+
+  * ci(apt-repo): per-version changelog + confirm Pages picked it up
+  * feat(web): mobile pass, playback calendar, health popover
+  * feat: two-factor authentication (TOTP)
+  * feat: automatic PTZ patrol/tour scheduling
+  * feat: inferred camera-to-camera movement graph (not a real floor plan)
+  * fix(janitor): auto-register paths.recordings so its health is actually watched
+  * feat(web): auto-load older events on scroll instead of a manual click
+  * feat: connection history, alert-enriched restarts, bitrate trend, RTSP failover
+  * feat(web): Alarm view — focus panel for active motion + all-camera grid
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Fri, 25 Sep 2026 23:27:13 +0200
+
+zeus (0.1.16) stable; urgency=medium
+
+  * feat: connection diagnostics — real ffmpeg error classification + admin Connections view
+  * fix(web): don't show a Retry stream button that can't do anything
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Fri, 25 Sep 2026 20:08:14 +0200
+
+zeus (0.1.15) stable; urgency=medium
+
+  * fix(deploy): .deb's shipped example config pointed go2rtc.binary at the wrong path
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Fri, 25 Sep 2026 19:50:31 +0200
+
+zeus (0.1.14) stable; urgency=medium
+
+  * fix(deploy): host the apt repo on GitHub Pages, drop Cloudflare entirely
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Fri, 25 Sep 2026 19:25:55 +0200
+
+zeus (0.1.13) stable; urgency=medium
+
+  * fix(deploy): publish-apt-repo's TAG was empty, cross-job step output
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Fri, 25 Sep 2026 19:10:08 +0200
+
+zeus (0.1.12) stable; urgency=medium
+
+  * No changes recorded.
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Fri, 25 Sep 2026 18:52:43 +0200
+
+zeus (0.1.11) stable; urgency=medium
+
+  * feat(web): rectangular live-view layouts, not just square N×N grids
+  * fix(web): tune hls.js live-edge distance, ~4s live view lag was real
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Fri, 25 Sep 2026 18:52:43 +0200
+
+zeus (0.1.10) stable; urgency=medium
+
+  * fix(web): live view now picks up newly added cameras without a refresh
+  * fix(deploy): host .deb downloads via a public artifacts repo, not R2/proxy
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Fri, 25 Sep 2026 18:28:13 +0200
+
+zeus (0.1.9) stable; urgency=medium
+
+  * fix(deploy): apt repo .deb exceeds Cloudflare Workers' 25MiB asset limit
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Fri, 25 Sep 2026 18:05:43 +0200
+
+zeus (0.1.8) stable; urgency=medium
+
+  * docs: split apt-repo README into install-only vs maintainer setup
+  * docs: lead with the hosted apt repo in the README, fix stale apt-repo docs
+  * docs: document real-machine (bare-metal) install in the main README
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Fri, 25 Sep 2026 17:46:11 +0200
+
+zeus (0.1.7) stable; urgency=medium
+
+  * fix(deploy): wrangler deploy for apt repo; example config path was doc-stripped
+  * chore: untrack local wrangler cache accidentally committed in 53005c7
+  * fix(deploy): publish apt repo via direct wrangler deploy, no companion repo
+  * fix(deploy): publish apt repo via Cloudflare Pages, not GitHub Pages
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Fri, 25 Sep 2026 17:39:30 +0200
+
+zeus (0.1.6) stable; urgency=medium
+
+  * feat(deploy): package Zeus as a .deb and publish a signed apt repo
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Fri, 25 Sep 2026 17:05:06 +0200
+
+zeus (0.1.5) stable; urgency=medium
+
+  * fix(deploy): install.sh sets direct_media and api.listen for direct-HTTP installs
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Wed, 23 Sep 2026 13:02:13 +0200
+
+zeus (0.1.4) stable; urgency=medium
+
+  * fix(api): put_section returns 204 instead of a bodyless 200
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Wed, 23 Sep 2026 12:39:24 +0200
+
+zeus (0.1.3) stable; urgency=medium
+
+  * fix(deploy): allow zeus-api to write /etc/zeus; validate config pre-upgrade; ask about TLS
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Wed, 23 Sep 2026 12:32:06 +0200
+
+zeus (0.1.2) stable; urgency=medium
+
+  * fix(release): binaries report their real version, not always 0.1.0
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Wed, 23 Sep 2026 12:21:33 +0200
+
+zeus (0.1.1) stable; urgency=medium
+
+  * feat(api): embed the web UI into zeus-api; nginx becomes optional
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Wed, 23 Sep 2026 12:11:33 +0200
+
+zeus (0.1.0) stable; urgency=medium
+
+  * fix(deploy): remove stray text corrupting zeus.service
+  * add release build and packager
+  * feat(playback): show main and sub streams side by side
+  * feat(db): migration ledger, pre-migration backup, downgrade refusal
+  * fix(reliability): clear stale degraded status; wait for go2rtc on boot
+  * feat(native): Safire on-screen-display control via reverse-engineered protocol
+  * feat(ptz): preset save/overwrite/delete; ONVIF device-info lookup
+  * feat(admin): reorganize camera settings into tabs; expose new controls
+  * feat(janitor): honor motion_prune_streams for tiered retention
+  * feat(detect): wire tier0_bypass and presence-extend into the pipeline
+  * feat(config): schema for tier0 bypass, presence-extend, motion-prune, live overlay
+  * feat(discovery): single-device ONVIF probe for the add-camera form
+  * feat(live): digital zoom, drag-to-position overlay, mobile fixes
+  * feat(live): replace WHEP signalling with a native HLS relay
+  * feat: add initial README with project overview, features, and setup instructions
+  * feat: continue NVR operations and snapshot controls
+  * feat: enhance camera configuration and storage management
+  * feat(discovery): ONVIF/template camera discovery with verified auto-add
+  * feat: update .gitignore to include additional design files
+  * feat(web): redesign NVR operator interface
+  * feat: complete Phase 5 plan — intelligence (Tasks 1-10)
+  * feat: complete Phase 4 plan — operations (Tasks 1-14)
+  * test(api): Phase 3 end-to-end integration test, browser acceptance and README   notes
+  * feat: complete Phase 1+2 plan (Tasks 27-28) with integration, load-test acceptance and container   image
+  * feat: Phase 1 core recorder and Phase 2 detector through Task 26
+
+ -- Zeus NVR <packages@leviathansystems.invalid>  Wed, 23 Sep 2026 11:46:00 +0200
+

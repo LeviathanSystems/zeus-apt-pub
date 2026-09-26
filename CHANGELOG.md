@@ -1,3 +1,9 @@
+# v0.1.21
+
+_Released 2026-09-26, changes since v0.1.20._
+
+- feat(native): edit the Safire camera's own settings from the UI
+- fix(infer): safeguards so a Tier 2 failure can't silently jam the queue
 # v0.1.20
 
 _Released 2026-09-26, changes since v0.1.19._
