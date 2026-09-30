@@ -1,3 +1,8 @@
+# v0.1.24
+
+_Released 2026-09-30, changes since v0.1.23._
+
+- feat(admin): bulk camera edits, pinnable display timezone, probe fix
 # v0.1.23
 
 _Released 2026-09-30, changes since v0.1.22._

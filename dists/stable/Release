@@ -2,27 +2,27 @@ Changelogs: https://leviathansystems.github.io/zeus-apt-pub/changelogs/@CHANGEPA
 Architectures: amd64
 Codename: stable
 Components: main
-Date: Wed, 30 Sep 2026 13:22:53 +0000
+Date: Wed, 30 Sep 2026 21:10:39 +0000
 Label: Zeus NVR
 Origin: Zeus NVR
 Suite: stable
 MD5Sum:
- a4ba358999f4aa8c82ed4e2c2eb421e8              140 Release
- 96ead9b2a292edb7169ce1a3f1989375              698 main/binary-amd64/Packages
- 7e4379bd6054084ba18af8b47ab81b24              491 main/binary-amd64/Packages.gz
+ 92e6c36bd5b27df8f24927ea0b0a2847              140 Release
+ 3a04506bc5ddcb9c5455788d90f82042              698 main/binary-amd64/Packages
+ 5d54ac34ff3eaae3ff761429f8e67dd7              489 main/binary-amd64/Packages.gz
  854a83a46a34a5ce8bcb1b5041806b12               85 main/binary-amd64/Release
 SHA1:
- fd391622b8e54912421f06aa520963fd6cffa608              140 Release
- ea851a40d0728e69fd0322a25019de9700989eb1              698 main/binary-amd64/Packages
- 69c5dd75ae55394ffbe61a2ab7e95de0a3357631              491 main/binary-amd64/Packages.gz
+ c1a28c971d35bd7b3676ac5539063e0d935a9049              140 Release
+ 18c56cd47be2ff7b5b422f1813ad304d33577ef1              698 main/binary-amd64/Packages
+ 20727dce4ce21f97f637f374844947de85fffe9c              489 main/binary-amd64/Packages.gz
  2d263ffb8eb36f685407706e2e7987643c21c479               85 main/binary-amd64/Release
 SHA256:
- 41f46478824f31fc691a69654c84ac673f4faff89e01edf9d6946d88daee332c              140 Release
- b789ec0d4b4262e0190a82dc7bea207024ac1f97f21ad604d07ca21926866d5c              698 main/binary-amd64/Packages
- 9c990edef7262f07c63bd1636d7ef17228055e304155eb59ea896b2a58f36c1f              491 main/binary-amd64/Packages.gz
+ 39a8e60f878e2f4d0d79a6251afc245de52b0c2237024d36f9ebea53a74bca86              140 Release
+ ee375edee7f96a16a3a4712ddd217a8d98a688806ca7e40a4d715fff2256d2e6              698 main/binary-amd64/Packages
+ f1ca75c42c262660e791aed1f37c4bea21cf5808c8e5f86c9ccfb66b39ee578d              489 main/binary-amd64/Packages.gz
  22966ce43aa8fb90f8162f260597b53e3926284e65fec8ebb7a92e0b65220f1d               85 main/binary-amd64/Release
 SHA512:
- 9ddb011a8f9c94c03ddf93be068bff0187e80296cabce01d3e91c8546877b8791172217b67e5329da1f056cea1c7aa0eabedf5e24f4edeba92938feb79c65d53              140 Release
- af0b19ee1a01eefa7a35a68da61377260ab527d72c30bb028570aee55a7f6dc585a2e7071847c484b4c2c1ad464dac53f92346b4ba49fc38b662f53541d7ffdc              698 main/binary-amd64/Packages
- 00065e9a3cb4fbb3a00f4ec4d9d44fe702361edad48e8280f5788e73903f81529958f38821551bbdef70323a6194ff44dab8447fa095dd0c04e0ab543a971f82              491 main/binary-amd64/Packages.gz
+ aaba849248c3cc9f3bdaf7b61966178dd207653608fb530aedc817a2549bde3d9a15fa5b0dd4f8919cac1ffd5828a5f2a16b83932d10485ec4dcee97a0e07db8              140 Release
+ c54485b118c5e639c66023357f405432f6803abcd639187d3f54e34a8744f64d851cb8cc08e3c98b518521d141a26f7f428a20e98e597b254c01b6fc99ec33a5              698 main/binary-amd64/Packages
+ 7aceeead4584ffe03f58e44f054fecf1da50ed97b87c806205f11c54aae1cb02de01d3fe4a186f285d3e466bb53b09cde11e275d9892315f7daa9b79bca15357              489 main/binary-amd64/Packages.gz
  af1138573a9629339eff73d6c1bdba5bd12c193220eff64b62be8e0a9a8448aa7dcc3016919c8628c9632a17fb181fffa7829eff2d707581d1fdb1145c81b9b3               85 main/binary-amd64/Release
