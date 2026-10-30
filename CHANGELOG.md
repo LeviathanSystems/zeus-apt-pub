@@ -1,3 +1,9 @@
+# v0.1.26
+
+_Released 2026-10-30, changes since v0.1.25._
+
+- fix(janitor): recover lost recording runs from their init segments
+- fix(janitor): report how many recordings a run re-indexed
 # v0.1.25
 
 _Released 2026-10-30, changes since v0.1.24._
