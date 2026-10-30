@@ -1,3 +1,8 @@
+# v0.1.28
+
+_Released 2026-10-30, changes since v0.1.27._
+
+- fix(playback): file calendar days by the real local day, not one fixed offset
 # v0.1.27
 
 _Released 2026-10-30, changes since v0.1.26._
