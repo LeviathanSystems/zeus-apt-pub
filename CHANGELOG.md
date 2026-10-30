@@ -1,3 +1,9 @@
+# v0.1.27
+
+_Released 2026-10-30, changes since v0.1.26._
+
+- feat(janitor): list the recordings missing from the index, without writing
+- feat(admin): switch the janitor's delete permission from Settings
 # v0.1.26
 
 _Released 2026-10-30, changes since v0.1.25._
