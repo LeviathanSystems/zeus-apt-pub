@@ -1,3 +1,8 @@
+# v0.1.30
+
+_Released 2026-11-06, changes since v0.1.29._
+
+- ci: install apt-utils for apt-ftparchive
 # v0.1.28
 
 _Released 2026-10-30, changes since v0.1.27._
