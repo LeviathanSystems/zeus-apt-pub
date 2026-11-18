@@ -1,3 +1,8 @@
+# v0.1.32
+
+_Released 2026-11-18, changes since v0.1.31._
+
+- feat(notify): manage per-user email addresses, and restate persisting faults
 # v0.1.30
 
 _Released 2026-11-06, changes since v0.1.29._
