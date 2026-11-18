@@ -1,3 +1,8 @@
+# v0.1.34
+
+_Released 2026-11-18, changes since v0.1.33._
+
+- fix(notify): stop duplicating buffered mail, and make the digest readable
 # v0.1.33
 
 _Released 2026-11-18, changes since v0.1.32._
