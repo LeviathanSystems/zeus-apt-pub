@@ -1,3 +1,8 @@
+# v0.1.33
+
+_Released 2026-11-18, changes since v0.1.32._
+
+- fix(notify): stop dropping email alerts, support SMTPS, add a test button
 # v0.1.32
 
 _Released 2026-11-18, changes since v0.1.31._
