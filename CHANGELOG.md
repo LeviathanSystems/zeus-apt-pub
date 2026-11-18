@@ -1,3 +1,8 @@
+# v0.1.35
+
+_Released 2026-11-18, changes since v0.1.34._
+
+- fix(janitor): index before planning, trim the archive before filling it
 # v0.1.34
 
 _Released 2026-11-18, changes since v0.1.33._
